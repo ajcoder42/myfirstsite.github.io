@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="css\styles.css" />
+  </head>
+  <body>
+    <h3>Contact Details</h3>
+    <ul type="disc">
+      <li>
+        Phone No. - <strong><em>8873433318</em></strong>
+      </li>
+      <li>
+        Email - <strong><em>Jha.Abhishek@gmail.com</em></strong>
+      </li>
+      <li>Home Town : Darbhanga Bihar</li>
+      <li>Permanent Addreess : B-5, Punjabi Bagh, Delhi</li>
+    </ul>
+    <hr />
+    <h3>Wanna Send Me A Message !!</h3>
+    <form
+      action="mailto:jha.abhishek@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table cellspacing="10">
+        <tr>
+          <td><label>Your Name : </label></td>
+          <td><input type="text" name="Name" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Age : </label></td>
+          <td><input type="number" name="Age" /></td>
+        </tr>
+        <tr>
+          <td><label>Your D.O.B : </label></td>
+          <td><input type="date" name="D.O.B" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Fav color :</label></td>
+          <td><input type="color" name="Fav color" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Email : </label></td>
+          <td><input type="email" name="Email" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Number : </label></td>
+          <td><input type="number" name="Number" /></td>
+        </tr>
+        <tr>
+          <td><label>Your Gender : </label></td>
+          <td>
+            <label>Male</label><input type="Radio" name="Gender" />
+            <label>Female</label><input type="Radio" name="Gender" />
+            <label>Other</label><input type="Radio" name="Gender" />
+          </td>
+        </tr>
+      </table>
+      <div>
+        Type Your Message :<br /><textarea rows="5" cols="70" name="Message">
+        </textarea>
+      </div>
+      <br />
+      <div>
+        <label>
+          Do You Want To Get A Copy of Your Responses ?
+          <input type="checkbox" />
+        </label>
+      </div>
+      <table cellspacing="20">
+        <tr>
+          <td><input type="Reset" value="RESET" /></td>
+          <td><input type="submit" value="SUBMIT" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
